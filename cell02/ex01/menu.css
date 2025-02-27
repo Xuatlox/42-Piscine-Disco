@@ -1,0 +1,52 @@
+body{
+    margin-top: 30vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("sandwichbg") ;
+    background-size: 100vw 100vh;
+}
+
+h1{
+    text-align: center;
+}
+
+.drop-content a{
+    text-align: center;
+    color: black;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    min-width: 154px;
+}
+
+#panel{
+    background-color: darkgoldenrod; 
+    margin-right: 30vw;
+    margin-left: 30vw;
+    border-radius: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.dropbtn{
+    background-color: chocolate;
+    border: none;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.drop-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: beige;
+}
+
+.dropdown{
+    display: inline-block;
+    min-width: 185.9px;
+    margin-left: 35%;
+}
+
+.dropdown:hover .drop-content {display: block;}
+.dropdown:hover .dropbtn {background-color: rgb(190, 85, 10);}
+.drop-content a:hover {color: cadetblue;}
