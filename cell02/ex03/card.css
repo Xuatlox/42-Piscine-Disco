@@ -1,12 +1,17 @@
 #card {
     background-color: aliceblue;
-    margin-left: 35vw;
-    margin-right: 35vw;
+    margin-left: 38vw;
+    margin-right: 38vw;
+    margin-top: 15vh;
+    border: 5px groove rgb(70, 0, 70);
 }
 
 caption {
     caption-side: top;
     font-size: 5vmin;
+    border: 5px groove rgb(70, 0, 70);
+    border-bottom: none;
+    background-color: blanchedalmond;
 }
 
 img {
@@ -18,6 +23,8 @@ body {
     margin: auto;
     text-align: center;
     font-family: fantasy;
+    background-image: url("background.png");
+    background-size: 100vw 100vh;
 }
 
 #login {
@@ -25,11 +32,12 @@ body {
 }
 
 #login, #description, #photo, #logos{
-    padding-top: 3%;
+    padding-top: 5%;
 }
 
 #logos {
     display: inline-block;
+    min-height: 12%;
 }
 
 #description {
@@ -45,5 +53,6 @@ body {
     color: white;
     width: 100%;
     height: 8vmin;
-    font-size: 4vmin;
+    font-size: 3vmin;
+    border: none;
 }

@@ -1,0 +1,107 @@
+h3, h6{
+    text-align: center;
+    color: #7d5657;
+}
+
+h3 {
+    padding: 10%;
+}
+
+a {
+    padding: 5%;
+    text-decoration: none;
+}
+
+html body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 0;
+    background-color: #8b2323;
+}
+
+#nav-bar {
+    background-color: #292929;
+    border-right: 10px solid #171717;
+    height: 100vh;
+    position: fixed;
+    width: 8%;
+    padding-left: 1%;
+}
+
+#main-bar {
+    background-color: #8b2323;
+    padding-left: 10%;
+}
+
+button {
+    border-radius: 100%;
+    padding: 0;
+    margin-top: 20px;
+    border-color: #292929;
+    background-color: #505050;
+    border-style: solid;
+    color: white;   
+    margin: auto;
+    aspect-ratio: 1 / 1;
+    width: 80%;
+}
+
+#about-panel, h1, h2 {
+    padding: 60px;
+}
+
+#portrait {
+    border-radius: 60%;
+    border: 10px solid #ff00dd;
+}
+
+#experience-panel #contact-panel {
+    padding-top: 60px;
+}
+
+li, p, #experience1, #experience2, #experience3, #compétences, ul{
+    list-style: none;
+    text-align: center;
+}
+
+.logo {
+    width: 80%;
+    aspect-ratio: 1 / 1;
+}
+
+#gun-logo {
+    aspect-ratio: 980 / 538;
+    width: 70%;
+}
+
+#contact-logo {
+    aspect-ratio: 1 / 1;
+    width: 70%;
+}
+
+#experience-panel{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 525px) 1575px;
+    grid-template-rows: 800px;
+    column-gap: 2%;
+}
+
+#skills-panel {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.affiche {
+    height: 90%;
+}
+
+hr {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#contact-title {
+    padding-top: 30px;
+}
+
+button:hover {background-color: #0c0c0c;}
